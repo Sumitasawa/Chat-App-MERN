@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
 import assets from "../assets/assets";
 import { formatMessageTime } from "../lib/utilis";
-import { AuthContext } from "../context/AuthContext";
-import { ChatContext } from '../context/chatContext.jsx'
+import { AuthContext } from "@/context/AuthContext";
+import { ChatContext } from '@/context/ChatContext.jsx'
 
 const toBase64 = (file) =>
   new Promise((resolve, reject) => {
